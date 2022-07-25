@@ -21,10 +21,10 @@ body {
     padding: 9px 25px;
 }
 
-a{
+a {
 
     text-decoration: none;
-    color:white;
+    color: white;
 }
 
 .from_custom {
@@ -42,7 +42,7 @@ a{
     width: 100.333333%;
 }
 
-#order_man{
+#order_man {
 
     font-size: 50px;
 }
@@ -58,6 +58,7 @@ a{
     width: 217px;
     margin: 0 auto;
 }
+
 .watch_2_custom {
     width: 243px;
     margin: 0 auto;
@@ -68,4 +69,30 @@ a{
 .watch_3_custom {
     width: 190px;
     margin: 0 auto;
+}
+
+.done_custom {
+
+    margin-top: 130px;
+    margin-bottom: 80px;
+}
+
+.Success_wrapper {
+    text-align: center;
+    box-shadow: -4px 11px 27px 9px grey;
+}
+
+.Success_icon {
+
+    font-size: 50px;
+}
+
+.Success_icon {
+    font-size: 100px;
+    color: #0DC142;
+}
+
+#add_c_div {
+
+    margin-top: 70px;
 }

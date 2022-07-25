@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   
+
   <!-- font awesome  -->
   <script src="https://kit.fontawesome.com/0bff4f04d9.js" crossorigin="anonymous"></script>
   <!-- bootstrap.min  -->
@@ -22,8 +22,7 @@
     <!-- header -->
 
 
-
-    <nav class="navbar navbar-expand-lg bg-primary fixed-top nav_custom ">
+    <nav class="navbar navbar-expand-lg bg-white fixed-top nav_custom ">
       <div class="container">
         <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt=""></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -33,166 +32,101 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+              <a class="nav-link active text-dark" aria-current="page" href="#"><i class="fa-solid fa-house"></i>
+                Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white" href="#Shoes">Shoes</a>
+              <a class="nav-link text-dark" href="#Shoes"><i class="fa-solid fa-shoe-prints"></i> Shoes</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white" href="#Backpack">Backpack</a>
+              <a class="nav-link text-dark" href="#Backpack"><i class="fa-solid fa-briefcase"></i> Backpack</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white" href="#Subscribe">Subscribe</a>
+              <a class="nav-link text-dark" href="#watch"><i class="fa-solid fa-clock"></i> Watch</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#Subscribe"><i class="fa-solid fa-subscript"></i> Subscribe</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
     <!-- slider section srart -->
-    <section class="container banner_custom">
-      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active bg-danger bg-opacity-10  rounded p-5">
-            <div class="row">
-              <div class="col-lg-7 d-flex  align-items-center">
-                <div>
-                  <h1>Cool Dude Headphone</h1>
-                  <p>
-                    This is the best headphone in the world for people who just want to waste time in fropnt of funky
-                    world.</p>
-                  <h2>$420</h2>
-                  <button class="btn panda_btn_buy_now"><a href="order.html">Buy Now</a></button>
-                </div>
-              </div>   
-              <div class="col-lg-5">
-                <img src="images/banner-images/tv.png" class="d-block w-100" alt="...">
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item bg-info bg-opacity-10  rounded p-5">
-            <div class="row">
-              <div class="col-lg-7 d-flex  align-items-center">
-                <div>
-                  <h1>Cool Dude Headphone</h1>
-                  <p>
-                    This is the best headphone in the world for people who just want to waste time in fropnt of funky
-                    world.</p>
-                  <h2>$420</h2>
-                  <button class="btn panda_btn_buy_now" ><a href="order.html">Buy Now</a></button>
-                </div>
-              </div>
-              <div class="col-lg-5">
-                <img src="images/banner-images/xbox.png" class="d-block w-100" alt="...">
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item bg-primary bg-opacity-10  rounded p-5">
-            <div class="row">
-              <div class="col-lg-7 d-flex  align-items-center">
-                <div>
-                  <h1>Cool Dude Headphone</h1>
-                  <p>
-                    This is the best headphone in the world for people who just want to waste time in fropnt of funky
-                    world.</p>
-                  <h2>$420</h2>
-                  <button class="btn panda_btn_buy_now"><a href="order.html">Buy Now</a></button>
-                </div>
-              </div>
-              <div class="col-lg-5">
-                <img src="images/banner-images/headphone.png" class="d-block w-100" alt="...">
-              </div>
-            </div>
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
-          data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
-          data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
 
-      </div>
-
-
-    </section>
     <!-- slider end  -->
 
   </header>
   <!-- header and  -->
 
-     <!-- add to card  -->
-     <!-- container d-flex justify-content-center align-items-center flex-column jus -->
-     <div id="add_c_div"  class="container d-flex justify-content-center align-items-center  my-3 rounded ">
+  <!-- add to card  -->
+  <!-- container d-flex justify-content-center align-items-center flex-column jus -->
+  <div id="add_c_div" class="container d-flex justify-content-center align-items-center   rounded ">
 
-        <form  class="column  g-3 bg-info bg-opacity-25 p-5 rounded ">
-              <i class="fa-solid fa-credit-card card_custom"></i>
-            <h1 class="border-bottom border-white text-primary  ">Add New Card</h1>
-            <div class="col-md-6 input_custom">
-              <label for="validationDefault01" class="form-label">Enter card number</label>
-              <input  type="text" class="form-control w-100" id="validationDefault01" placeholder="******** **** ****" required>
-            </div>
-            <div class="col-md-4 input_custom">
-              <label for="validationDefault02" class="form-label">Expiry date</label>
-              <input type="text" class="form-control" id="validationDefault02" placeholder="MM/YY" required>
-            </div>
-            <div class="col-md-4 input_custom">
-              <label for="validationDefaultUsername" class="form-label">CVC/CVV</label>
-              <div class="input-group">
-                <span class="input-group-text" id="inputGroupPrepend2">C</span>
-                <input type="text" class="form-control " id="validationDefaultUsername"  aria-describedby="inputGroupPrepend2" placeholder="..." required >
-              </div>
-            </div>
-            <div class="col-md-6 input_custom">
-              <label for="validationDefault03" class="form-label">Card holder name</label>
-              <input type="text" class="form-control" id="validationDefault03" placeholder="Enter card holder full name" required>
-            </div>
-           
-           
-            <div class="col-12 p-2">
-              <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
-                <label class="form-check-label " for="invalidCheck2">
-                  Save Card
-                </label>
-              </div>
-            </div>
-            <div class="col-12">
-              <button class="btn panda_btn_buy_now" type="submit"><a href="index.html">Order Confirm</a></button>
-            </div>
-          </form>
-
-     </div>
-
-    <!-- subscribe start -->
-
-    <section style="height: 300px"
-      class="container d-flex justify-content-center bg-info align-items-center  my-5  rounded " id="Subscribe">
-
-
-      <div>
-
-
-        <h2>LET'S STAY ON TUCH</h2>
-        <p>Get updates on sales , speasials and more</p>
-
-        <form>
-          <div class="mb-3">
-            <label for="exampleInputEmail1" class="form-label">Email address</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-          </div>
-          <button type="submit" class="btn panda_btn_buy_now">Submit</button>
-        </form>
-
+    <form class="column  g-3 bg-dark bg-opacity-25 p-5 rounded ">
+      <i class="fa-solid fa-credit-card card_custom"></i>
+      <h1 class="border-bottom border-white text-primary  ">Add New Card</h1>
+      <div class="col-md-6 input_custom">
+        <label for="validationDefault01" class="form-label">Enter card number</label>
+        <input type="text" class="form-control w-100" id="validationDefault01" placeholder="******** **** ****"
+          required>
       </div>
-    </section>
+      <div class="col-md-4 input_custom">
+        <label for="validationDefault02" class="form-label">Expiry date</label>
+        <input type="text" class="form-control" id="validationDefault02" placeholder="MM/YY" required>
+      </div>
+      <div class="col-md-4 input_custom">
+        <label for="validationDefaultUsername" class="form-label">CVC/CVV</label>
+        <div class="input-group">
+          <span class="input-group-text" id="inputGroupPrepend2">C</span>
+          <input type="text" class="form-control " id="validationDefaultUsername" aria-describedby="inputGroupPrepend2"
+            placeholder="..." required>
+        </div>
+      </div>
+      <div class="col-md-6 input_custom">
+        <label for="validationDefault03" class="form-label">Card holder name</label>
+        <input type="text" class="form-control" id="validationDefault03" placeholder="Enter card holder full name"
+          required>
+      </div>
+      <div class="col-12 p-2">
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+          <label class="form-check-label " for="invalidCheck2">
+            Save Card
+          </label>
+        </div>
+      </div>
+      <div class="col-12">
+        <button class="btn panda_btn_buy_now" type="submit"><a href="done.html">Order Confirm <i
+              class="fa-solid fa-square-check"></i></a></button>
+      </div>
+    </form>
+
+  </div>
+
+  <!-- subscribe start -->
+
+  <section style="height: 300px"
+    class="container d-flex justify-content-center bg-info align-items-center  my-5  rounded " id="Subscribe">
+
+    <div>
+
+      <h2>LET'S STAY ON TUCH</h2>
+      <p>Get updates on sales , speasials and more</p>
+
+      <form>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        </div>
+        <button type="submit" class="btn panda_btn_buy_now">Submit</button>
+      </form>
+
+    </div>
+  </section>
 
 
 
-    <!-- subscribe end -->
+  <!-- subscribe end -->
 
   </main>
 
@@ -207,9 +141,6 @@
 
 
   <!-- footer end -->
-
-
-
 
 
   <!-- bootstrap js file -->

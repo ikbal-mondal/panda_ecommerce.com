@@ -1,0 +1,22 @@
+/* google fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+
+    /* google fonts */
+    font-family: 'Poppins', sans-serif;
+}
+
+.banner_custom {
+    margin-top: 65px;
+}
+
+.panda_btn_buy_now {
+
+    background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 9px 25px;
+}

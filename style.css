@@ -20,3 +20,52 @@ body {
     border-radius: 8px;
     padding: 9px 25px;
 }
+
+a{
+
+    text-decoration: none;
+    color:white;
+}
+
+.from_custom {
+    box-shadow: 3px 1px 9px grey;
+}
+
+
+
+
+
+
+
+.input_custom {
+    flex: 0 0 auto;
+    width: 100.333333%;
+}
+
+#order_man{
+
+    font-size: 50px;
+}
+
+.card_custom {
+    font-size: 50px;
+    position: relative;
+    left: 117px;
+    color: #14161a;
+}
+
+.watch_1_custom {
+    width: 217px;
+    margin: 0 auto;
+}
+.watch_2_custom {
+    width: 243px;
+    margin: 0 auto;
+    position: relative;
+    top: -19px;
+}
+
+.watch_3_custom {
+    width: 190px;
+    margin: 0 auto;
+}
